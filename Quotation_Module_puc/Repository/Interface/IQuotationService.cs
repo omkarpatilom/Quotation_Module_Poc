@@ -7,7 +7,7 @@ namespace Quotation_Module_puc.Repository.Interface
         List<Quote> GetAllQuotes();
          Task<int> CreateQuote(Quote quote);
         Quote GetQuoteById(int quoteId);
-        Task UpdateQuote(int quoteId, Quote quote);
+        void UpdateQuote(int quoteId, Quote quote);
         Task DeleteQuote(int quoteId);
     }
 }

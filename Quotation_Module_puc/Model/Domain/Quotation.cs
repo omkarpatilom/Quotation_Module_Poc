@@ -58,7 +58,7 @@ namespace Quotation_Module_puc.Model.Domain
         public string? TypeName { get; set; }
 
         // Job Info
-        public int? JobId { get; set; }
+        public string? JobId { get; set; }
         public int? JobIdProjectManagerId { get; set; }
         public string? JobIdProjectManagerName { get; set; }
 
